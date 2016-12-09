@@ -417,6 +417,6 @@ app.get('/logout', function(req, res) {
     res.redirect('/');
     // res.sendFile('./home.html');
 });
-app.listen(8000, function () {
+app.listen(80, function () {
   console.log('Example app listening on port 8000!');
 });
